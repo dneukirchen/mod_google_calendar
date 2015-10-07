@@ -43,6 +43,7 @@ class ModGoogleCalendarHelper {
 	{
 		$options = array(
 			'timeMin'    => JDate::getInstance()->toISO8601(),
+			'orderBy'    => 'startTime',
 			'maxResults' => $maxEvents,
 		);
 
@@ -63,12 +64,12 @@ class ModGoogleCalendarHelper {
 		$startDateFormat = isset($event->start->dateTime) ? 'd.m.Y H:i' : 'd.m.Y';
 		$endDateFormat   = isset($event->end->dateTime) ? 'd.m.Y H:i' : 'd.m.Y';
 
-		if($event->startDate == $event->endDate)
+		if ($event->startDate == $event->endDate)
 		{
 			return $event->startDate->format($startDateFormat, true);
 		}
 
-		if($event->startDate->dayofyear == $event->endDate->dayofyear)
+		if ($event->startDate->dayofyear == $event->endDate->dayofyear)
 		{
 			return $event->startDate->format($startDateFormat, true) . ' - ' . $event->endDate->format('H:i', true);
 		}
@@ -88,7 +89,6 @@ class ModGoogleCalendarHelper {
 	protected function getEvents($options)
 	{
 		$defaultOptions = array(
-			'orderBy'      => 'startTime',
 			'singleEvents' => 'true',
 		);
 
@@ -158,7 +158,7 @@ class ModGoogleCalendarHelper {
 	{
 		$timeZone = (isset($date->timezone)) ? $date->timezone : null;
 
-		if(isset($date->dateTime))
+		if (isset($date->dateTime))
 		{
 			return JDate::getInstance($date->dateTime, $timeZone);
 		}
