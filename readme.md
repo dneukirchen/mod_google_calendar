@@ -6,3 +6,4 @@ This Joomla 3.x module gets the events from a google calendar and shows the even
 * show/hide microdata
 * Calendar settings as module params
 * Calendar languages
+* Date and Time format
