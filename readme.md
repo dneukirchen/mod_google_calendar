@@ -1,6 +1,8 @@
 # Joomla Google Calendar Module
 
-This Joomla 3.x module which gets the events from a google calendar and shows the events in a list or in a calendar view.
+Joomla 3.x module which gets the events from a google calendar and shows the events in a list or in a calendar view.
+
+Demo (list and calendar view): <http://www.joomla.de/events>
 
 ## Setup
 
