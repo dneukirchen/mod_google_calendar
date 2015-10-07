@@ -4,7 +4,7 @@ This Joomla 3.x module which gets the events from a google calendar and shows th
 
 ## Setup
 
-Download the package from xxx and install it just like any other joomla extension.
+[Download the package](http://www.rheinsurfen.de/dl/mod_google_calendar.zip) and install it just like any other joomla extension.
 
 Go to the module settings and insert your google calendar api key and the calendar id.
 
