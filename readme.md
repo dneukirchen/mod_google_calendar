@@ -2,9 +2,9 @@
 
 Joomla 3.x module which gets the events from a google calendar and shows the events in a list or in a calendar view.
 
-Demo (list and calendar view): <http://www.joomla.de/events>
+Live Demo (list and calendar view): <http://www.joomla.de/events>
 
-## Setup
+## Installation / Setup
 
 [Download the package](http://www.rheinsurfen.de/dl/mod_google_calendar.zip) and install it just like any other joomla extension.
 
@@ -22,8 +22,26 @@ If you dont have an api key, you can get one at <https://console.developers.goog
 
 3) Now copy the Calendar ID to use in the module settings in joomla.
 
+
+## Screenshots
+
+#### Module Settings
+
+![Module Settings
+](https://image.ibb.co/iR2J1S/Bildschirmfoto_2018_02_14_um_16_05_46.png "Module Settings
+")
+
+#### Calendar view
+
+![Calendar view](https://preview.ibb.co/fTorMS/Bildschirmfoto_2018_02_14_um_16_05_14.png "Calendar view")
+
+#### List view 
+
+![List view ](https://image.ibb.co/dzxJ1S/Bildschirmfoto_2018_02_14_um_16_08_01.png "List view ")
+
+
 ## TODO 
-* show/hide microdata
-* Calendar settings as module params
-* Calendar languages
-* Date and Time format
+- [ ] show/hide microdata
+- [ ] Calendar settings as module params
+- [ ] Calendar languages
+- [ ] Date and Time format
