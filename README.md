@@ -6,7 +6,7 @@ Live Demo (list and calendar view): <http://www.joomla.de/events>
 
 ## Installation / Setup
 
-[Download the package](https://raw.githubusercontent.com/dneukirchen/mod_google_calendar/packages/mod_google_calendar_v1.1.2.zip<) and install it just like any other joomla extension.
+[Download the package](https://raw.githubusercontent.com/dneukirchen/mod_google_calendar/packages/mod_google_calendar_v1.1.2.zip) and install it just like any other joomla extension.
 
 Go to the module settings and insert your google calendar api key and the calendar id.
 
