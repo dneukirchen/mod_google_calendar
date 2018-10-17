@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.0" client="site" method="upgrade">
+<extension type="module" version="3.7" client="site" method="upgrade">
 	<name>mod_google_calendar</name>
 	<author>David Neukirchen</author>
 	<creationDate>Sep 2015</creationDate>
 	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-	<authorEmail>david@rheinsurfen.de</authorEmail>
+	<authorEmail>extensions@rheinsurfen.de</authorEmail>
 	<authorUrl>www.rheinsurfen.de</authorUrl>
 	<version>1.1.1</version>
 	<description>MOD_GOOGLE_CALENDAR_DESCRIPTION</description>
