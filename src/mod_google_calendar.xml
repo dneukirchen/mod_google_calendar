@@ -10,7 +10,7 @@
 	<version>1.1.1</version>
 	<description>MOD_GOOGLE_CALENDAR_DESCRIPTION</description>
 	<updateservers>
-		<server type="extension" name="Google Calendar Module" priority="1">http://www.rheinsurfen.de/dl/mod_google_calendar.xml</server>
+		<server type="extension" name="Google Calendar Module" priority="1">https://raw.githubusercontent.com/dneukirchen/mod_google_calendar/master/updates/mod_google_calendar.xml</server>
 	</updateservers>
 	<files>
 		<filename module="mod_google_calendar">mod_google_calendar.php</filename>
