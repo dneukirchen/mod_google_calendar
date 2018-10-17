@@ -4,10 +4,10 @@
 	<author>David Neukirchen</author>
 	<creationDate>Sep 2015</creationDate>
 	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>david@rheinsurfen.de</authorEmail>
 	<authorUrl>www.rheinsurfen.de</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.1</version>
 	<description>MOD_GOOGLE_CALENDAR_DESCRIPTION</description>
 	<files>
 		<filename module="mod_google_calendar">mod_google_calendar.php</filename>

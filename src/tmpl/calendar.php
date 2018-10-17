@@ -1,4 +1,10 @@
-<?php defined('_JEXEC') or die;
+<?php
+/**
+ * @copyright (C) 2018 - David Neukirchen - Rheinsurfen
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ **/
+
+defined('_JEXEC') or die;
 
 // Load the FullCalendar assets
 $document = JFactory::getDocument();
